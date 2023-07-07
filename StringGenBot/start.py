@@ -14,18 +14,21 @@ async def start(bot: Client, msg: Message):
         chat_id=msg.chat.id,
         text=f"""Hᴇʏ {msg.from_user.mention},
 
-Tʜɪs ɪs {me2},
-Aɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
-
-Mᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ : [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](tg://user?id={OWNER_ID}) !""",
+"ᴡᴇʟᴄᴏᴍᴇ!!! ᴜꜱᴀɢᴇ ᴄᴍᴅꜱ ʟɪꜱᴛᴇᴅ ʙᴇʟʟᴏᴡ!!!/"
+"ꜰɪʀꜱᴛ ᴏꜰ ᴀʟʟ ᴊᴏɪɴ ᴏᴜʀ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ᴄʜᴀɴɴᴇʟ ʟɪꜱᴛᴇᴅ ʙᴇʟᴏᴡ!!!/"
+"ᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴠɪꜱɪᴛɪɴɢ!!!"
+"Mᴀᴅᴇ ʙʏ : [//ᴋᴀʀᴛɪᴋ ʟᴇɢᴇɴᴅ//](tg://user?id={OWNER_ID}) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")
+                    InlineKeyboardButton(text="ʙᴜʏ ᴛᴇʟᴇɢʀᴀᴍ ɪᴅꜱ", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("❣️ sᴏᴜʀᴄᴇ ❣️", url="https://github.com/AnonymousX1025/StringGenBot"),
-                    InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=OWNER_ID)
+                    InlineKeyboardButton("ꜱᴍᴍ ᴘᴀɴᴇʟ", url="https://realsmmpanel.online"),
+                    InlineKeyboardButton("ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ", url="https://t.me/evonity")
+                ],
+                 [
+                    InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/EvonixZone")
                 ]
             ]
         ),
