@@ -29,7 +29,11 @@ async def start(bot: Client, msg: Message):
                 ],
                  [
                     InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/EvonixZone")
-                ]
+                ],
+                 [
+                    InlineKeyboardButton("ᴀᴅᴅ ꜰᴜɴᴅ", callback_data="funding"),
+                    InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help")
+                ],
             ]
         ),
         disable_web_page_preview=True,
