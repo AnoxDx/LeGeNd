@@ -33,7 +33,7 @@ async def start(bot: Client, msg: Message):
                  [
                     InlineKeyboardButton("ᴀᴅᴅ ꜰᴜɴᴅ", callback_data="funding"),
                     InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help")
-                ],
+                ]
             ]
         ),
         disable_web_page_preview=True,
