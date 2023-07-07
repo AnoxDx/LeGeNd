@@ -13,5 +13,5 @@ ask_ques = "**ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴘ ᴏꜰ ᴛʜɪꜱ ʙᴏᴛ ʏᴏᴜ
 buttons_ques = [
     [
         InlineKeyboardButton("ɢᴏ ʙᴀᴄᴋ", callback_data="start"),
-        InlineKeyboardButton("ꜱᴍᴍ ᴘᴀɴᴇʟ", callback_data="")
+        InlineKeyboardButton("ꜱᴍᴍ ᴘᴀɴᴇʟ", url="https://realsmmpanel.online")
     ]
